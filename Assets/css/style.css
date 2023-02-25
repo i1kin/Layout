@@ -166,6 +166,7 @@ main {
     width: 274px;
     height: 206px;
     object-fit: cover;
+    floadt: left;
     margin-bottom: 40px;
     position: relative;
     overflow: hidden;
@@ -174,8 +175,12 @@ main {
 .portfolio-img img {
     width: 100%;
     height: 100%;
-    display: flex;
+    display: block;
     transition: .3s all ease-in-out;
+}
+
+.portfolio-img:nth-child(even) {
+    float: right;
 }
 
 .portfolio-img:hover > img {
