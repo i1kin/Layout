@@ -157,16 +157,11 @@ main {
 }
 
 /* Portfolio */
-.portfolio-card {
-    display:flex;
-    flex-wrap: wrap;
-    margin-bottom: 40px;
-}
 .portfolio-img {
     width: 274px;
     height: 206px;
     object-fit: cover;
-    floadt: left;
+    float: left;
     margin-bottom: 40px;
     position: relative;
     overflow: hidden;
