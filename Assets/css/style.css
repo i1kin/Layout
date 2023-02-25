@@ -157,25 +157,24 @@ main {
 }
 
 /* Portfolio */
-
+.portfolio-card {
+    display:flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
 .portfolio-img {
     width: 274px;
     height: 206px;
     object-fit: cover;
-    float: left;
     margin-bottom: 40px;
     position: relative;
     overflow: hidden;
 }
 
-.portfolio-img:nth-child(even) {
-    float: right;
-}
-
 .portfolio-img img {
     width: 100%;
     height: 100%;
-    display: block;
+    display: flex;
     transition: .3s all ease-in-out;
 }
 
